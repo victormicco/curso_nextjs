@@ -27,7 +27,7 @@ export default function Mouse() {
   }
   return (
     <div style={estilo} onMouseMove={quandoMover}>
-      <h1>Onde seu mouse está?</h1>
+      <h1>Exactly point of ur mouse</h1>
       <span>Eixo X: {x} </span>
       <span>Eixo y: {y} </span>
     </div>
